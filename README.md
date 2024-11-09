@@ -1,6 +1,9 @@
 # Image Denoising Comparison: Total Variation vs. DnCNN
 
-This project compares two approaches to image denoising: the **Total Variation (TV) method** (using the Barzilai-Borwein gradient descent) and the **Deep Convolutional Neural Network (DnCNN)** method, as proposed in ["Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising" by Kai Zhang et al.](https://arxiv.org/abs/1608.03981).
+## Purpose
+
+The inspiration for this project came from coursework where we applied Total Variation denoising and learned about the Barzilai-Borwein (BB) optimization method, a Hessian-free approach that approximates Newton’s method using step sizes from finite gradient differences. This project builds on that foundation by implementing TV denoising with BB optimization and comparing it to the DnCNN model, a deep learning approach from the paper ["Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising" by Kai Zhang et al.](https://arxiv.org/abs/1608.03981). The goal is to see how well deep learning methods can handle denoising in comparison to classical techniques.
+
 
 ## Methods Overview
 
