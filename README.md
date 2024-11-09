@@ -1,2 +1,7 @@
 # DeepDenoise
+
 DeepDenoise: Enhancing TV Denoising with Deep Learning
+
+This project explores and compares two image denoising techniques: Total Variation (TV) Denoising and the deep learning-based DnCNN model. The inspiration for this project came from my coursework, where we used the Total Variation method to learn about the Barzilai-Borwein optimization algorithm. This gradient-based method improves upon Cauchy's classical steepest-descent method, which often suffers from slow convergence. Instead of calculating the costly Hessian matrix, the Barzilai-Borwein method approximates the quasi-Newton approach by estimating the Hessian using scalar step sizes derived from finite differences between two consecutive gradient evaluations. This approach, which only requires gradient calculations, achieves a first-order approximation that accelerates convergence and avoids the complexity of full Newton’s methods. To demonstrate the power of this optimization approach, we applied it to image denoising in class.
+
+Curious about improving these results, I explored how deep neural networks could be used for image denoising. This led me to the paper "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising" by Kai Zhang et al., which proposes a DnCNN model that learns to separate noise from image content through residual learning. In this project, I implemented the DnCNN model and compared its denoising results with those from the Total Variation approach.
