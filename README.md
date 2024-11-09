@@ -19,10 +19,8 @@ This project compares two approaches to image denoising: the **Total Variation (
 To assess denoising quality, we use **Peak Signal-to-Noise Ratio (PSNR)**. A higher PSNR value indicates a cleaner, more accurate denoised image.
 
 ### Example Comparisons
-
-|------------------------------------------|
-| ![Example1](comparison_results/comparison_1.png)    |
-| ![Example2](comparison_results/comparison_2.png)    |
+![Example1](comparison_results/comparison_1.png)
+![Example2](comparison_results/comparison_2.png)
 
 
 Repeat this row for each example saved in the `comparison_results` directory.
