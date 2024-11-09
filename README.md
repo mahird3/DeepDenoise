@@ -22,9 +22,6 @@ To assess denoising quality, we use **Peak Signal-to-Noise Ratio (PSNR)**. A hig
 ![Example1](comparison_results/comparison_1.png)
 ![Example2](comparison_results/comparison_2.png)
 
-
-Repeat this row for each example saved in the `comparison_results` directory.
-
 The **DnCNN method** is expected to handle complex noise patterns effectively, often achieving higher PSNR values compared to the **TV method**, which may be better at preserving edges but less capable with complex noise.
 
 These results demonstrate that DnCNN generally produces higher PSNR values, indicating better denoising performance, especially on complex noise patterns.
