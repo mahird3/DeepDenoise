@@ -21,8 +21,8 @@ To assess denoising quality, we use **Peak Signal-to-Noise Ratio (PSNR)**. A hig
 ### Example Comparisons
 
 |------------------------------------------|
-| (comparison_results/comparison_1.png)    |
-| (comparison_results/comparison_2.png)    |
+| ![Example1](comparison_results/comparison_1.png)    |
+| ![Example2](comparison_results/comparison_2.png)    |
 
 
 Repeat this row for each example saved in the `comparison_results` directory.
