@@ -29,4 +29,20 @@ The **DnCNN method** is expected to handle complex noise patterns effectively, o
 
 These results demonstrate that DnCNN generally produces higher PSNR values, indicating better denoising performance, especially on complex noise patterns.
 
+## Instructions for Execution
+
+### Total Variation Denoising (TV Denoising)
+
+To execute TV denoising on an image file, use the following command:
+
+```bash
+python tv_denoising.py input_image.png output_image.png --target_size 256 256 --lambd 1.0 --max_iterations 500 --eps 1e-8
+```
+
+To execute DnCNN denoising on an image file, use the following command:
+
+```bash
+python dncnn_denoising.py input_image.png output_image.png --weights dncnn_model.pth --target_size 256 256 --contrast_factor 1.15
+```
+
 ---
