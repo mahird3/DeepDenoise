@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The inspiration for this project came from coursework where we applied Total Variation denoising and learned about the Barzilai-Borwein (BB) optimization method. I wanted to see if I could find a new denoising method online that would surpass the Total Variation (TV) approach we learned in class. This led me to explore the DnCNN model from the paper “Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising” by Kai Zhang et al. In this project, I compare the performance of classical TV denoising with the deep learning–based DnCNN to see how well modern neural networks can handle image denoising compared to traditional techniques.
+The inspiration for this project came from coursework where we applied Total Variation denoising and learned about the Barzilai-Borwein (BB) optimization method for image denoising. I wanted to see if I could find a new denoising method online that would surpass the Total Variation (TV) approach we learned in class. This led me to explore the DnCNN model from the paper “Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising” by Kai Zhang et al. In this project, I compare the performance of classical TV denoising with the deep learning–based DnCNN to see how well modern neural networks can handle image denoising compared to traditional techniques.
 
 
 ## Methods Overview
